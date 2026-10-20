@@ -1,0 +1,27 @@
+# Sortie de compilation
+bin/
+out/
+target/
+build/
+*.class
+
+# Fichiers temporaires des IDE / extensions Java
+.factorypath
+*.log
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code (on garde la config Java versionnée)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Système
+.DS_Store
+Thumbs.db
